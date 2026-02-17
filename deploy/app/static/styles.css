@@ -30,8 +30,25 @@ h1 {
 }
 
 .subtitle {
-  margin: 8px 0 24px;
+  margin: 8px 0 6px;
   color: #334155;
+}
+
+.credit {
+  margin: 0 0 24px;
+  color: #475569;
+  font-size: 0.95rem;
+}
+
+.credit a {
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.credit a:hover,
+.credit a:focus {
+  text-decoration: underline;
 }
 
 .card {
